@@ -1,25 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 
 <head>
-	<title>Registro - Portal de Anúncios</title>
-	<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Anúncios - Recake!</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-	<header>
-		<div>
-			<h1>Portal de Anúncios</h1>
-		</div>
-		<div>
-			<form>
-				<input type="text" placeholder="Pesquisar anúncios...">
-				<button type="submit">Buscar</button>
-			</form>
-		</div>
-	</header>
-	<main>
-		<div class="register_container">
+    <header>
+        <div class="logo">
+            <img src="logotype.png" alt="Logo">
+        </div>
+    </header>
+
+    <nav>
+        <div class="menu_container">
+            <div class="search">
+                <input type="text" placeholder="Pesquisar Anúncios">
+                <button type="submit">Buscar</button>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="#">Anunciar</a></li>
+                    <li><a href="Login.html">Entrar</a></li>
+                    <li><a href="Register.html">Cadastrar</a></li>
+                </ul>
+            </div>
+    </nav>
+
+    <main>
+        <div class="register_container">
 			<h2>Registro</h2>
 			<form>
 				<label for="email">E-mail:</label>
@@ -36,4 +50,8 @@
 				<button type="submit">Enviar</button>
 			</form>
 		</div>
-	</main>
+    </main>
+
+</body>
+
+</html>
